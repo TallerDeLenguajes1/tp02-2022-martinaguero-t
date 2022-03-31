@@ -1,0 +1,13 @@
+Respuestas a las preguntas del punto 2:
+
+2f) a- ¿Puede ver el archivo tp2_1_2.c? ¿Por qué?
+
+- No, no se puede ver ya que el commit se hizo en la rama Opcion_2. Tras hacer dicho commit, se dejó de ver el archivo en el workspace. Solamente pude volver a verlo una vez que hice el merge de las dos ramas.
+
+2f) b- Vuelva a ejecutar el comando gitk --all. ¿Qué diferencias nota?
+
+- La diferencia está en que los commits hechos en la rama "Opcion_2" aparecen visualmente en los nodos de otra "rama" del "arbol" de trabajo, mientras que el nuevo commit de Respuestas.txt aparece como nodo en la rama main.
+
+2f) c- Use el comando git merge Opcion_2 -m "Merge opcion 2". Luego utilice el comando gitk --all para ver los cambios. ¿Qué nota?
+
+- Principalmente noto que el archivo tp2_1_2.c se vuelve a ver en el workspace y que el último nodo de la rama Opcion_2 está conectado al nodo correspondiente al merge en la rama principal.
