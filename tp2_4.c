@@ -28,6 +28,7 @@ void mostrarCompuMasVieja(compu compus[ARRCOMP]);
 // Funcion para mostrar la computadora mas vieja.
 
 void mostrarCompuMasVeloz(compu compus[ARRCOMP]);
+// Funcion para mostrar la computadora mas veloz.
 
 int main(){
 
