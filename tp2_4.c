@@ -84,15 +84,10 @@ void cargarCompus(compu compus[ARRCOMP], char tiposCompus[M][N]){
 
 void mostrarCompus(compu compus[ARRCOMP]){
 
-    char* recorrerCadena;
-    // Puntero auxiliar para recorrer las cadenas correspondientes y no usar los punteros de cada estructura.
-
     for (int i = 0; i < ARRCOMP; i++)
     {
-
         printf("\n==== Info de la PC %d\n",i+1);
         mostrarCompu(compus[i]);
-
     }
 
 }
